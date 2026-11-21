@@ -81,7 +81,7 @@ app.put('/productos/:id', (req, res) => {
     //Validacion de la existencia del id del produdcto
     if (indice === -1) {
         return res.status(404).json({
-            mensaje: 'El id que del producto que escribio no existe'
+            mensaje: 'El id del producto que escribio no existe'
         })
     }
 
